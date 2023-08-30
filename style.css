@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.manu-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #424141;
+    color: white;
+    padding: 12px;
+}
+
+.menus{
+    display: flex;
+    list-style: none;
+}
+
+.items{
+    margin-right:17px;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.logo{
+    width: 100px;
+    padding: 5px;
+}
+
+.brand-container{
+    display:flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    height: 100vh;
+    background-image: url("./images/background.png"),linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.photo{
+    width: 300px;
+}
+
+.title{
+    font-size: 54px;
+    font-weight: bold;
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+}
+.btn{
+    margin-top: 20px;
+    padding: 13px 20px;
+    outline: none;
+    background-color: red;
+    border-radius: 3px;
+    border: none;
+    color: white;
+}
+
+.about-us-container{
+    display: flex;
+    padding: 25px;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-direction: row-reverse;
+}
+
+.about-us{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.box{
+    width: 200px;
+    height: 280px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 4px 2px 105px gray;
+}
+.box-title{
+    padding: 10px;
+}
+.box-btn{
+    background-color: #1c1b1c;
+}
+.icon{
+    width: 70px;
+    color: #2e2e2e;
+}
+.service-container{
+    background-image: url('./images/background.png'), linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+    color: white;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+.box-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
